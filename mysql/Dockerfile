@@ -1,5 +1,5 @@
-ARG MYSQL_VERSION=latest
-FROM mysql:${MYSQL_VERSION}
+ARG MYSQL_VERSION=5.7
+FROM mysql:5.7
 
 LABEL maintainer="Mahmoud Zalt <mahmoud@zalt.me>"
 
